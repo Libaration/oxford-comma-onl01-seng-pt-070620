@@ -12,7 +12,11 @@ def oxford_comma(array)
     myVar << ", and " << array[2]
   else
     myVar = array[0..array.size - 2].join(", ") ## I know there has to be a better way of doing this.
+<<<<<<< HEAD
     myVar << ", and " << array[array.size - 1]
+=======
+    myVar << ", and " << array[array.size - 1] 
+>>>>>>> 16f17f2f5b93fd3996c0fddeb4e24607396d7441
   end
 end
 ##myArray = %w[dog cat mouse bear]
